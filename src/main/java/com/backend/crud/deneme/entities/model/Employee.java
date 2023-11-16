@@ -1,5 +1,4 @@
 package com.backend.crud.deneme.entities.model;
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
