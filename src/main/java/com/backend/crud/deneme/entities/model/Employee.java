@@ -1,4 +1,5 @@
 package com.backend.crud.deneme.entities.model;
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,7 +21,7 @@ import java.io.Serializable;
 public class Employee implements Serializable {
 
     @Id
-    @SequenceGenerator(name = "Personal_Info", initialValue = 1 , allocationSize = 1)
+    @SequenceGenerator(name = "Personal_Info", initialValue = 1, allocationSize = 1)
     @GeneratedValue(generator = "Personal_Info", strategy = GenerationType.IDENTITY)
     @Column(nullable = true)
     private long id;

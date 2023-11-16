@@ -31,7 +31,7 @@ public class EmployeeRepository {
     @DeleteMapping("/deleteEmployee")
     public void deleteEmployee(@RequestBody Employee employee) {
 
-      repo.deleteById(employee);
+        repo.deleteById(employee);
 
     }
 
