@@ -14,7 +14,7 @@ import java.io.Serializable;
 
 @NoArgsConstructor          // Referansı olmayan yapılar
 @AllArgsConstructor         // Referansı olan yapılar
-// Serializable implementasyonu olmadan çalışmadı.
+                            // Serializable implementasyonu olmadan çalışmadı.
 @Setter                     // silebilmem için konumlandırdım
 
 public class Employee implements Serializable {
